@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Syy.Tools
 {
-    public class PrefabVariantCreater : EditorWindow
+    public class PrefabVariantCreator : EditorWindow
     {
         [MenuItem("Assets/Create/Prefab Variant (Output)", priority = 210)]
         static void Create()
@@ -16,7 +16,7 @@ namespace Syy.Tools
                 return;
             }
 
-            var i = GetWindow<PrefabVariantCreater>();
+            var i = GetWindow<PrefabVariantCreator>();
             i.prefab = prefab;
             i.newPrefabName = prefab.name;
         }
