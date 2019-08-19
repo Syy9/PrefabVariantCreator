@@ -1,5 +1,5 @@
-# PrefabVariantCreater
-Unity Prefab Variant Creater
+# PrefabVariantCreator
+Unity Prefab Variant Creator
 
 ![demo](demo01.png)
 ![demo](demo02.png)
